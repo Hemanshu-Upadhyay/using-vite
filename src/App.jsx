@@ -4,11 +4,11 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [todo, setTodo] = useState[""];
 
   return (
     <>
-      <h1> React</h1>
+      <h1> Todo Project</h1>
     </>
   );
 }
